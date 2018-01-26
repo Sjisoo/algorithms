@@ -55,9 +55,6 @@ class Dice{
     public synchronized void equation(int width){
         answer = (long)((three * 4) + (two * (8 * Math.pow(width-2,2) + 4)) + (one * ((5 * Math.pow(width-2,2)) + (width-2) * 4)));
     }
-    public void hi(){
-        
-    }
 }
 
 public class Dice_1041 {
